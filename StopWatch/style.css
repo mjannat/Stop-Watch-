@@ -1,0 +1,30 @@
+#stopwatch{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 320;
+  margin: 0 auto;  
+}
+
+#pre-time{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    background: #000;
+    color: #fff;    
+}
+
+#rst, #str, #stp{
+    box-sizing: border-box;
+    width: 33.3%;
+    cursor: pointer;
+    padding: 20px 0;
+    border: 0;
+    color: hsl(0, 4%, 5%);
+    font-size: 20px;   
+}
+
+#rst { background-color: hsl(59, 85%, 63%); }
+#str { background-color: hsla(113, 90%, 31%, 0.87); }
+#stp {background-color: #a32c08;}
